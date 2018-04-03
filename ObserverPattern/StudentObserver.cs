@@ -14,7 +14,7 @@ namespace ObserverPattern
             Name = name;
         }
 
-        public void Sign(object obj)
+        public override void Sign(object obj)
         {
             Console.WriteLine("hello the world! from a students||" + Name);
         }

@@ -4,11 +4,11 @@ using System.Text;
 
 namespace ObserverPattern
 {
-    public interface IObserver
+    public abstract class IObserver
     {
         /// <summary>
         /// 签到
         /// </summary>
-        void Sign(object obj);
+        public abstract void Sign(object obj);
     }
 }
